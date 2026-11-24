@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#dceeff">
+  <title>For my lovely girl ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="music-control">
+    <button id="musicBtn" class="music-btn" type="button" aria-label="Play music">♫ <span>music</span></button>
+    <audio id="bgMusic" loop preload="none" src="music/your-song.mp3"></audio>
+  </div>
+
+  <main>
+    <section class="screen hero active" id="home">
+      <div class="sky">
+        <div class="moon"></div><div class="star s1">✦</div><div class="star s2">✧</div>
+        <div class="star s3">✦</div><div class="star s4">✧</div>
+        <div class="cloud cloud-one"></div><div class="cloud cloud-two"></div>
+        <div class="hills"></div><div class="town"></div>
+        <div class="dog" aria-label="little pixel dog"><span class="ear"></span><span class="face"></span><span class="body"></span><span class="tail"></span><span class="leg l"></span><span class="leg r"></span><span class="dog-heart">♡</span></div>
+      </div>
+      <div class="hero-content">
+        <p class="eyebrow">a little website made with love</p>
+        <h1>For my<br>lovely girl</h1>
+        <p class="hero-sub">Happy Birthday!<br><span>and happy 2 months to us ♡</span></p>
+        <button class="primary-btn" data-go="things">Open my gift <span>♡</span></button>
+        <p class="tiny-note">made just for you</p>
+      </div>
+    </section>
+
+    <section class="screen page" id="things">
+      <div class="page-top"><span class="pixel-heart">♡</span><span>01 / little things</span></div>
+      <h2>Little things<br>about you</h2>
+      <p class="intro">Tap each little box. There's something I want you to know.</p>
+      <div class="memory-grid">
+        <button class="memory-card" type="button"><span class="card-icon">✿</span><strong>Your smile</strong><span class="reveal">Your smile is the kind of magic I never want to lose.</span><small>tap to open</small></button>
+        <button class="memory-card" type="button"><span class="card-icon">☁</span><strong>Your kindness</strong><span class="reveal">I love that you have such a gentle and caring side. It's one of those little things that makes you even more special to me.</span><small>tap to open</small></button>
+        <button class="memory-card" type="button"><span class="card-icon">☆</span><strong>Your little ways</strong><span class="reveal">You don't even realize how sweet you can be sometimes, and that's what makes it even more adorable.</span><small>tap to open</small></button>
+        <button class="memory-card" type="button"><span class="card-icon">♡</span><strong>Being you</strong><span class="reveal">I love you for being yourself. For being the person you are, with all your little habits, random thoughts, silly moments, and everything in between. You don't even have to try to be special. You just are."</span><small>tap to open</small></button>
+      </div>
+      <div class="nav-row"><button class="text-btn" data-go="home">← back</button><button class="primary-btn" data-go="letter">Next <span>♡</span></button></div>
+    </section>
+
+    <section class="screen page letter-page" id="letter">
+      <div class="page-top"><span class="pixel-heart">♡</span><span>02 / a little letter</span></div>
+      <h2>A letter<br>for you</h2>
+      <p class="intro">I put a few words here, just for you.</p>
+      <button class="envelope-wrap" id="envelope" type="button" aria-expanded="false">
+        <span class="envelope"><span class="envelope-flap"></span><span class="seal">♡</span></span>
+        <span class="envelope-caption">tap to open your letter</span>
+      </button>
+      <article class="letter-note" id="letterNote" aria-hidden="true">
+        <p class="letter-hi">My lovely girl,</p>
+        <p>С днём рождения, моя ньисика. Время просто невероятно быстро летит. Не могу поверить, что тебе уже 15, ведь, кажется, совсем недавно мы познакомились, когда тебе было всего 12. Я искренне надеюсь, что этот новый год твоей жизни будет наполнен счастьем, любовью, теплом и заботой. Пусть рядом с тобой всегда будут люди, которые любят тебя, ценят и делают тебя счастливой. Ты заслуживаешь всего самого прекрасного, что только может подарить тебе жизнь.И, конечно же, самое главное крепкого здоровья. Я хочу, чтобы ты всегда чувствовала себя хорошо, была счастлива и как можно чаще улыбалась.</p>
+        <p>Эти два месяца пролетели совершенно незаметно, и наверное, это было одно из лучших спонтанных решений, которые я когда-либо принимала в своей жизни. Я ни на секунду не пожалею о том, что мы пережили вместе. Все наши общие моменты, воспоминания и маленькие теплые моменты навсегда останутся в моем сердце и будут согревать его.
+Я очень ценю тебя и честно, всегда боюсь потерять, даже если порой мое поведение может говорить об обратном. Пока мы вместе, я всегда буду рядом, поддерживать тебя, переживать за тебя, радоваться твоим успехам и искренне гордиться тобой.
+И даже если однажды меня не окажется рядом, пожалуйста, знай, что я всё равно буду переживать за тебя, радоваться твоим достижениям и гордиться тобой, но только на расстоянии. </p>
+        <p>Я очень рада, что всё это происходит именно с тобой и что мы можем разделять такие моменты вместе.</p>
+        <p class="letter-sign">With all my love ♡</p>
+      </article>
+      
+        </>
+      </>
+      <div class="nav-row"><button class="text-btn" data-go="things">← back</button><button class="primary-btn" data-go="meet">Next <span>♡</span></button></div>
+    </section>
+
+    <section class="screen page meet-page" id="meet">
+      <div class="page-top"><span class="pixel-heart">♡</span><span>03 / until we meet</span></div>
+      <div class="night-scene">
+        <div class="night-moon"></div><span class="night-star ns1">✦</span><span class="night-star ns2">✧</span>
+        <div class="gift-box" id="giftBox"><span class="gift-ribbon"></span><span class="gift-bow">♡</span></div>
+      </div>
+      <h2>Until we meet</h2>
+      <p class="meet-message">I hope we'll meet very soon...<br>Because I have something special<br>waiting for you. ♡</p>
+      <button class="primary-btn" id="giftBtn" type="button">A little secret <span>♡</span></button>
+      <p class="gift-secret" id="giftSecret">The best part won't fit in a box — it's getting to see you smile. ♡</p>
+      <div class="nav-row"><button class="text-btn" data-go="letter">← back</button><button class="text-btn" data-go="home">start again ↺</button></div>
+      <p class="tiny-note ending">that's all for now, my lovely girl ♡</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
